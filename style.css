@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 44px;
+    background: #333;
+    position: sticky;
+    top: 0;
+}
+nav{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+.collection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.item{
+    list-style: none;
+}
+.item span{
+    font-size: 12px;
+    color: #ddd;
+}
+.item i{
+    color: #ddd;
+}
+
+.macbook{
+    width: 100%;
+    height: 600px;
+    background: url("./img/hero_macbookair__el7scava26mq_largetall.png") no-repeat center/cover;
+
+    padding-top: 200px;
+    padding-left: 18%;
+}
+.macbook_text{
+    width: 500px;
+    text-align: center;
+}
+.macbook_text h1{
+    font-size: 50px;
+}
+.macbook_text h3{
+    padding: 20px 0px;
+    font-size: 28px;
+    font-weight: 300;
+}
+.link{
+    color: dodgerblue;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.link span{
+    font-size: 18px;
+}
+.link:hover span{
+    text-decoration: underline;
+}
+
+
+.ipad{
+    width: 100%;
+    height: 600px;
+    background: url("./img/hero_bts__bcuslanw39xe_largetall.jpg") no-repeat center/cover;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 50px;
+}
+.ipad h1{
+    font-size: 50px;
+    font-style: italic;
+}
+.ipad h1 span{
+    color: #CA2166;
+}
+.ipad h3{
+    font-size: 28px;
+    font-weight: 100;
+    padding-bottom: 15px;
+}
+
+.watch{
+    width: 100%;
+    height: 600px;
+    background-color: pink;
+
+}
+.macbook_texs{
+    background:url("./img/hero_watch_lte__b8er858e34gi_largetall.jpg") no-repeat center/cover;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 40px;
+    width: 100%;
+    height: 100%;
+    font-size: 20   px;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box{
+    width: 49.7%;
+    height: 550px;
+    margin-top: 10px;
+}
+.iphone13{
+    background: url("./img/promo_iphone13_avail__frc36u35m0ii_large.jpg") no-repeat center/cover;
+    text-align: center;
+    padding-top: 40px;
+}
+.iphone13 h1{
+    font-weight: 100;
+}
+.iphone13_pro{
+    background: url("./img/promo_iphone13pro_avail__beadms4ldidu_large\ \(1\).jpg") no-repeat center/cover;
+    text-align: center;
+    padding-top: 40px;
+}
+.iphone13_pro h1{
+    font-weight: 100;
+}
+.asd{
+    color:#CA2166;
+}
+.salom_it{
+    background:url("./img/promo_mbp13__buwssod6c8vm_large.jpg") no-repeat center/cover;
+    text-align: center;
+    padding-top: 40px; 
+    color:#ddd;
+}
+.salom_it h1{
+    font-weight: 100;
+}
+.hayot_it{
+    background:url("./img/promo_ipadair_avail__ferd4bfpcdm6_large\ \(1\).jpg") no-repeat center/cover;
+    text-align: center;
+    padding-top: 40px; 
+    color:#ddd;   
+}
+.hayot_it h1{
+    font-weight: 100;
+}
+.gbxfgh_dtgh{
+    background:url("./img/tile__cauwwcyyn9hy_large\ \(3\).jpg") no-repeat center/cover;
+    text-align: center;
+    padding-top: 40px; 
+    color:black;
+}
+.gbxfgh_dtgh h1{
+    font-weight: 100;
+}
+.fghj_ghgh{
+    background:url("./img/tile__cauwwcyyn9hy_large\ \(2\).jpg") no-repeat center/cover;
+    text-align: center;
+    padding-top: 40px; 
+    color:#ddd;
+}
+.fghj_ghgh h1{
+    font-weight: 100;
+}
+.iten{
+    list-style: none;
+}
+.iten i{
+    color:black;
+    font-size: 38px;
+    transform: translateX(-73px)translateY(33px);
+}
+.iteb{
+    list-style: none;
+}
+.iteb i{
+    color:black;
+    font-size: 38px;
+    transform: translateX(-50px)translateY(33px);
+}
+.ert{
+    width: 100%;
+    height: 700px;
+    background: url("./img/photo_2022-07-17_23-11-50.jpg") no-repeat center/cover;
+    margin-top: 10px;
+}
+.ghj{
+    width: 100%;
+    height: 700px;
+    background: url("./img/photo_2022-07-17_23-12-28.jpg") no-repeat center/cover;
+    margin-top: 10px;
+}
+
